@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Ice Cream</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>What Ice Cream Flavors?</h1>
+    </div>
+    <form id="iceCream">
+      <div>
+        <div class="row">
+          <div class="col-6" id="qOne">
+            <label for="flavor1"> Please type in a flavor.
+              <input id="flavor1" class="form-control" type="text" placeholder="Type a flavor!" required>
+            </label>   
+          </div>
+          <div class="col-6" id="qTwo">
+            <label for="flavor2">Please type in another flavor.
+              <input id="flavor2" class="form-control" type="text" placeholder="Type a flavor!" required>
+            </label>
+          </div>
+          <div class="col-6" id="qThree">
+            <label for="flavor3">Please type in another flavor.
+              <input id="flavor3" class="form-control" type="text" placeholder="Type a flavor!" required>
+            </label>
+          <div class="col-6" id="list">
+            <ul class="unstyled" id="flavorArray">
+            </ul>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn-lg" id="submit">Submit!</button>
+    </form>
+  </div>
+</body>
+</html>
